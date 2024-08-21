@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <style>
+        .form-container {
+            border: 0px solid #ffffff;
+            padding: 50px 60px;
+            margin-top: 20vh;
+            -webkit-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+            box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+        }
+
+        .bg {
+            background: url('images/wallpaper\ 9.jpg') no-repeat;
+            width: 100%;
+            height: 100vh;
+            background-size: cover
+        }
+
+        .sign-link a {
+            text-decoration: none;
+            color: #eaa00e;
+            font-size: larger;
+            font: weight 600px;;
+        }
+
+        .sign-link a:hover {
+            color: #DC381F;
+        }
+
+    </style>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    
+    <script type="text/javascript" src="">
+    </script>
+
+    <title>Register Page</title>
+
+
+</head>
+
+<body>
+<div class="container-fluid bg text-white">
+           <div class="row justify-content-center ">
+              <div class="form-container">
+                  <form action="" method="POST" onsubmit="return validate(this);">
+                <div class="form-group row">
+                    <label for="inputName3" class="col-sm-2 col-lg-3 col-form-label text font-weight-bold"></label>
+                    <div class="col-sm-6 col-lg-9">
+                        <input type="text" class="form-control" placeholder="Name"name="userName" >
+                        <span id="getName"></span>
+                    </div>
+                </div>
+                               
+                    <div class="form-group row">
+
+                    <label for="inputEmail3" class="col-sm-2 col-lg-3 col-form-label text font-weight-bold"></label>
+                    <div class="col-sm-6 col-lg-9">
+                        <input type="email" class="form-control" name="userEmail" placeholder="@gmail.com">
+                        <span id="getEmail"></span>
+                    </div>
+                </div>               
+                     <div class="form-group row">
+
+                    <label for="inputPassword3" class="col-sm-2 col-lg-3 col-form-label text font-weight-bold"></label>
+                    <div class="col-sm-6 col-lg-9">
+                        <input type="password" class="form-control" placeholder="Password"name="userPass" value="">
+                        <span id="getPass"></span>
+                    </div>
+                </div>
+                       <div class="row justify-content-center py-1">
+                        <button type="submit" class="btn btn-success" name="Reg">Register</button>
+                         </div>
+                      <div class="row justify-content-center sign-link">
+                          <a href="login.html">Already have an Account? Log in </a>
+                      </div>
+                  </form>
+                </div>
+              </div>             
+
+        
+    </div>
+
+</body>
+
+</html>
